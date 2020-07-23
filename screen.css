@@ -179,7 +179,7 @@ body
 #navigation a:hover,
 #navigation a:active
 {
-	color: #7799bb;
+	color: #4AB3DC;
 	background: #333333 url(images/navigation_hover.gif) top left repeat;
 }
 
@@ -221,7 +221,7 @@ li#lcontact a:active
 
 body#babout li#labout a
 {
-	color: #99bbdd;
+	color: #4AB3DC ;
 	background: #333333 url(images/navigation_hover.gif) 0 -2px repeat;
 }
 
