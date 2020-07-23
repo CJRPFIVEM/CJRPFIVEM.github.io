@@ -146,7 +146,7 @@ body
 	width: 100%; 
 	color: #888888;
 	text-align: center; 
-	background-color: #222222;
+	background-color: #4AB3DC;
 	border-top: 1px solid #000000;
 	border-bottom: 10px solid #191919;
 }
@@ -221,7 +221,7 @@ li#lcontact a:active
 
 body#babout li#labout a
 {
-	color: #99bbdd;
+	color: #4AB3DC;
 	background: #333333 url(images/navigation_hover.gif) 0 -2px repeat;
 }
 
@@ -229,7 +229,7 @@ body#babout li#labout a
 
 #sidebar p
 {
-	color: #999999;
+	color: #4AB3DC;
 	margin: 10px 35px; 
 	padding: 5px 30px; 
 	line-height: 1.6em;
@@ -242,8 +242,8 @@ body#babout li#labout a
 
 #footer p { margin: 15px 0; }
 
-#footer a:link { color: #888888; font-weight: bold; border-bottom: 1px dotted #888888; } 
+#footer a:link { color: #4AB3DC; font-weight: bold; border-bottom: 1px dotted #888888; } 
 
-#footer a:visited { color: #666666; font-weight: bold; border-bottom: 1px dotted #666666; }
+#footer a:visited { color: #4AB3DC; font-weight: bold; border-bottom: 1px dotted #666666; }
 
-#footer a:hover, #footer a:active { color: #999999; border-bottom: 1px solid #999999; }
+#footer a:hover, #footer a:active { color: #4AB3DC; border-bottom: 1px solid #999999; }
