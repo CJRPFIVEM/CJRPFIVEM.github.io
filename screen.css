@@ -3,7 +3,7 @@ html
 	margin: 0;
 	padding: 0;
 	color: #aaaaaa;
-	background-color:#333333;
+	background-color: #333333;
 	font: normal 12px "Trebuchet MS", "Lucida Grande", Verdana, Georgia, Sans-Serif;
 }
 
@@ -17,7 +17,7 @@ a:hover, a:active { color: #dd5555; }
 
 /* Html Elements */
 
-h1, h2, h3, h4, h5, h6 { font-weight: normal; margin: 0; padding: 10px 0; color: #4AB3DC; }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; margin: 0; padding: 10px 0; color: #779955; }
 
 h1 { font-size: 32px; }
 
@@ -31,7 +31,7 @@ h5, h6 { font-size: 17px; }
 
 ul, ol, dl, blockquote, pre
 {
-	color: #4AB3DC;
+	color: #999999;
 	margin: 10px 35px; 
 	padding: 10px 30px; 
 	line-height: 1.6em;
@@ -47,7 +47,7 @@ ul { list-style-type: square; }
 dt
 {
 	margin: 0;
-	color: #4AB3DC;
+	color: #7799bb;
 	font-size: 10px; 
 	font-weight: bold;
 	padding: 10px 0 2px; 
@@ -68,7 +68,7 @@ em { font-style: italic; }
 
 strong { font-weight: bold; }
 
-ins { color: #4AB3DC; text-decoration: none; padding-left: 20px; background: transparent url(images/information.png) center left no-repeat; }
+ins { color: #999999; text-decoration: none; padding-left: 20px; background: transparent url(images/information.png) center left no-repeat; }
 
 del { text-decoration: line-through; } 
 
@@ -101,7 +101,7 @@ body
 	float: left;
 	width: 100%; 
 	clear: both;
-	color: #4AB3DC;
+	color: #333333;
 	border-bottom: 5px solid #222222;
 	background: #eeeeee url(images/navigation_bg.gif) top left repeat; 
 }
@@ -229,7 +229,7 @@ body#babout li#labout a
 
 #sidebar p
 {
-	color: #4AB3DC;
+	color: #999999;
 	margin: 10px 35px; 
 	padding: 5px 30px; 
 	line-height: 1.6em;
@@ -247,31 +247,3 @@ body#babout li#labout a
 #footer a:visited { color: #666666; font-weight: bold; border-bottom: 1px dotted #666666; }
 
 #footer a:hover, #footer a:active { color: #999999; border-bottom: 1px solid #999999; }
-
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: #333;
-  overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #4AB3DC;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #4AB3DC;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #4AB3DC;
-  color: white;
-}
