@@ -8,7 +8,7 @@
   
   # Check for file in directory with .html extension 
   
-  RewriteCond %{REWRITE_FILENAME}/.html -f
+  RewriteCond %{REQUEST_FILENAME}/.html -f
   
   # Here we actually show the page that has the .html extension
   
