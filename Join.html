@@ -4,7 +4,7 @@
 <title> Join CJRP</title>
 	<link rel="Icon" type="Icon" href="Icon.png"</link>
 </a>
-<script>	
+<div>	
 RewriteEngine on
 
 RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
@@ -13,7 +13,7 @@ RewriteRule ^ /%1 [NC,L,R]
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 	
-</script>
+</div>
 	
 <div>
 </html>
