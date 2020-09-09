@@ -4,5 +4,10 @@
 <title> Join CJRP</title>
 	<link rel="Icon" type="Icon" href="Icon.png"</link>
 </a>
+	#remove html from url
+	RewriteEngine on
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)$ $1.html [L,QSA]
 <div>
 </html>
