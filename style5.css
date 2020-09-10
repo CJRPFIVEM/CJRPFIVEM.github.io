@@ -1,0 +1,57 @@
+img {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    left:0;
+    right: 15px;
+    top:0;
+}
+h1
+{
+	color: #d24adc ;
+}
+h2{
+    font-size: 25px;
+    color: darkorchid;
+}
+img{
+    width: 500px;
+    height: 250px;
+}
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+    position: fixed;
+    top: 40%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  /* Style the icon bar links */
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Style the social media icons with color, if you want */
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
+  .discord{
+      background: #7289d9;
+      color: white;
+  }
