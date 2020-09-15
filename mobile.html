@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="style8.css">
+  <link href="style7.css" type="text/css" rel="stylesheet">
+  <title>CJRP Freedom Roleplay</title>
+  <link rel="Icon" type="Icon" href="Icon.png"</link>
+  <script type="text/javascript">
+  if (screen.width <= 699) {
+    document.location = "";
+  }
+</script>
+</head>
+<body class="grey lighten-3">
+
+  <!-- NAVBAR -->
+  <nav class="z-depth-0 grey lighten-4">
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li class="topnav">
+            <a href="home"class="grey-text">Home</a>
+          </li>
+          <li class="topnav">
+            <a href="updates" class="grey-text">Updates</a>
+          </li>
+          <li class="topnav">
+            <a href="contact" class="grey-text">Contact</a>
+          </li>
+          <li class="topnav">
+            <a href="about" class="grey-text">About</a>
+          </li>
+          <li class="topnav">
+            <a href="media" class="grey-text">Media</a>
+          </li>
+          <li>
+            <a href="Join" class="grey-text">Join</a>
+            </li>
+        </span>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- SIGN UP MODAL -->
+  <div id="modal-signup" class="modal">
+    <div class="modal-content">
+      <h4>Sign up</h4><br />
+      <form id="signup-form">
+        <div class="input-field">
+          <input type="email" id="signup-email" required />
+          <label for="signup-email">Email address</label>
+        </div>
+        <div class="input-field">
+          <input type="password" id="signup-password" required />
+          <label for="signup-password">Choose password</label>
+        </div>
+        <button class="btn yellow darken-2 z-depth-0">Sign up</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- LOGIN MODAL -->
+  <div id="modal-login" class="modal">
+    <div class="modal-content">
+      <h4>Login</h4><br />
+      <form id="login-form">
+        <div class="input-field">
+          <input type="email" id="login-email" required />
+          <label for="login-email">Email address</label>
+        </div>
+        <div class="input-field">
+          <input type="password" id="login-password" required />
+          <label for="login-password">Your password</label>
+        </div>
+        <button class="btn yellow darken-2 z-depth-0">Login</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ACCOUNT MODAL -->
+  <div id="modal-account" class="modal">
+    <div class="modal-content center-align">
+      <h4>Account details</h4><br />
+      <div class="account-details"></div>
+      <div class="account-extras"></div>
+    </div>
+  </div>
+
+ 
+  <!-- CREATE GUIDE MODAL -->
+  <div id="modal-create" class="modal">
+    <div class="modal-content">
+      <h4>Create Guide</h4><br />
+      <form id="create-form">
+        <div class="input-field">
+          <input type="text" id="title" required>
+          <label for="title">Guide Title</label>
+        </div>
+        <div class="input-field">
+          <textarea id="content" class="materialize-textarea" required></textarea>
+          <label for="content">Guide Content</label>
+        </div>
+        <button class="btn yellow darken-2 z-depth-0">Create</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- GUIDE LIST -->
+  <div class="container" style="margin-top: 40px;">
+    <ul class="collapsible z-depth-0 guides" style="border: none;">
+
+    </ul>
+  </div>
+  
+  <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-firestore.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyDlDUJhsP0_uh-YpaRfTOhWZsyY_hLukTw",
+      authDomain: "net-ninja-sandbox.firebaseapp.com",
+      databaseURL: "https://net-ninja-sandbox.firebaseio.com",
+      projectId: "net-ninja-sandbox"
+    };
+    firebase.initializeApp(config);
+    
+    // make auth and firestore references
+    const auth = firebase.auth();
+    const db = firebase.firestore();
+
+    // update firestore settings
+    db.settings({ timestampsInSnapshots: true });
+  </script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="scripts/auth.js"></script>
+  <script src="scripts/index.js"></script>
+
+  <div style="position: relative">
+    <p style="position: fixed; bottom: 0; width:100%; text-align: center"> cjrpfivem.github.io/ &copy; 2020 - 2021</p>
+  </div>
+
+
+</div>
+
+<div class="slidershow middle">
+
+  <div class="slides">
+    <input type="radio" name="r" id="r1" checked>
+    <input type="radio" name="r" id="r2">
+    <input type="radio" name="r" id="r3">
+    <input type="radio" name="r" id="r4">
+    <input type="radio" name="r" id="r5">
+    <div class="slide s1">
+      <img src="1.png" alt="">
+    </div>
+    <div class="slide">
+      <img src="2.png" alt="">
+    </div>
+    <div class="slide">
+      <img src="3.png" alt="">
+    </div>
+    <div class="slide">
+      <img src="4.png" alt="">
+    </div>
+    <div class="slide">
+      <img src="5.png" alt="">
+    </div>
+  </div>
+<iframe src="https://discordapp.com/widget?id=727188395385684028&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+  <div class="navigation">
+    <label for="r1" class="bar"></label>
+    <label for="r2" class="bar"></label>
+    <label for="r3" class="bar"></label>
+    <label for="r4" class="bar"></label>
+    <label for="r5" class="bar"></label>
+  </div>
+</div>
+<center><a href="home">
+  <img src="CJRP4.png" alt="CJRP Freedom Roleplay" style="width:800px;height:380px;">
+  <div class="row"><img src="CJRP2.png", height = 50 width = 50/>
+</div>
+</body>
+</html>
+
