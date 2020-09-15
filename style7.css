@@ -75,7 +75,7 @@ input[name="r"]{
   left: 0;
   top: 0;
 }
-#navigation_bar {
+.NAVBAR{
   display: flex;
   align-items: center;
   justify-content: center;
