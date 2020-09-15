@@ -1,73 +1,41 @@
-body, html {
-Width: 100%;
-height: 100%;
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
 }
 
-.Wrapper{
-Width: 100%;
-height: 667px;
-background-image: url('Background.jpg');
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
 }
-.white{
-background-color: white;
-}
-.navbar {
-margin-bottom: 0px;
-font-size: 26;
-}
-.navbar-nav > li {
-font-size: 17px;
-padding-left: 5px;
-padding-right: 5px;
-}
-.container{
-Width: 100%;
-Height: 100%;
 
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
 }
-.page-header {
-Font-size: 30;
-margin: 0px;
-background-color: #1D262C;
-color: white;
-Height: 100px;
-border: none;
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
-h1 {
-margin: 0px;
-padding-left: 50px;
-padding-top: 30px;
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }
-@media(max-width: 480px) {
-  h1 {
-    font-size: 14;
-    text-align: center;
-  }
-}
-.row {
-color: #5E5E5E;
-position: relative;
-top: 30px;
-}
+
+/* Style the active link (or home/logo) */
 .active {
-color: black;
-}
-#head{
-padding: 0px;
-}
-p {
-font-size: 24px;
-}
-#row2{
-float:left;
-position: relative;
-top: 30px;
-color: #292929;
-Width: 500px;
-}
-h2 {
-color: black;
+  background-color: #4CAF50;
+  color: white;
 }
