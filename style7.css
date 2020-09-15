@@ -75,3 +75,9 @@ input[name="r"]{
   left: 0;
   top: 0;
 }
+#navigation_bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
