@@ -72,4 +72,8 @@
 }
 body {
   background-color: #212F3D;
+  }
+}
+.header h1 {
+  line-height: 100px;
 }
