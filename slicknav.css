@@ -77,10 +77,10 @@
   .slicknav_menu * {
     box-sizing: border-box; }
   .slicknav_menu .slicknav_menutxt {
-    color: #fff;
+    color: #212F3D;
     font-weight: bold; }
   .slicknav_menu .slicknav_icon-bar {
-    background-color: #fff; }
+    background-color: #212F3D; }
 
     .slicknav_btn {
       margin: 5px 5px 6px;
@@ -89,7 +89,7 @@
     }
 
 .slicknav_nav {
-  color: #fff;
+  color: #212F3D;
   margin: 0;
   padding: 0;
   font-size: 0.875em;
@@ -107,18 +107,18 @@
       -webkit-border-radius: 6px;
       -moz-border-radius: 6px;
       border-radius: 6px;
-      background: #ccc;
-      color: #fff; }
+      background: #212F3D;
+      color: #212F3D; }
   .slicknav_nav a {
     padding: 5px 10px;
     margin: 2px 5px;
     text-decoration: none;
-    color: #fff; }
+    color: #212F3D; }
     .slicknav_nav a:hover {
       -webkit-border-radius: 0px;
       -moz-border-radius: 0px;
       border-radius: 0px;
-      background: #ccc;
+      background: #212F3D;
       color: #222; }
   .slicknav_nav .slicknav_txtnode {
     margin-left: 15px; }
@@ -130,7 +130,7 @@
     margin: 0; }
 
 .slicknav_brand {
-  color: #fff;
+  color: #212F3D;
   font-size: 18px;
   line-height: 30px;
   padding: 7px 12px;
@@ -192,10 +192,10 @@
   padding: 0;
 }
 .slicknav_icon-bar {
-    background: #fff !important;
+    background: #212F3D !important;
 }
 .slicknav_nav {
-	background: #fff;
+	background: #212F3D;
 	float: right;
 	margin-top:0;
 	padding: 0;
@@ -206,7 +206,7 @@
 .slicknav_nav a:hover {
     background: #F79960 none repeat scroll 0 0;
     border-radius: 0;
-    color: #ffffff;
+    color: #212F3D;
 }
 
 .slicknav_nav a {
