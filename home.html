@@ -62,17 +62,17 @@
                                         <li><a class="active" href="home">Home</a></li>
                                         <li><a href="updates">Updates</a></li>
                                         <li><a href="contact">Contact</a></li>
-                                        <li><a href="fivem:82.18.68.243:30120">Join <i class="ti-angle-down"></i></a>
-                                            <ul class="submenu">
-                                                <li><a href="join">Join link 1</a></li>
-                                                <li><a href="https://joincjrp.github.io/">Join link 2</a></li>
-                                            </ul>
-                                        </li>
-
                                         <li><a href="media">Media <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
                                                 <li><a href="media">Trailer</a></li>
-                                                <li><a class="active" href="gallery">Our Photo Gallery</a></li>
+                                                <li><a href="gallery">Our photo gallery</a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li><a href="account">Account <i class="ti-angle-down"></i></a>
+                                            <ul class="submenu">
+                                                <li><a href="accsettings">Account Settings</a></li>
+                                                <li><a href="signout" onclick="signOut();">Sign Out</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -248,6 +248,18 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/mail-script.js"></script>
 
     <script src="js/main.js"></script>
+        
+        
+      <script>
+  function signOut() {
+    var auth2 = gapi.auth2.getAuthInstance();
+    auth2.signOut().then(function () {
+      console.log('User signed out.');
+    });
+  }
+</script>                                          
+        
+       
 </body>
 
 </html>
