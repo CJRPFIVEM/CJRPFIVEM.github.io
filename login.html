@@ -9,9 +9,9 @@
     <script src='login.js'></script>
     <meta name="google-signin-client_id" content="263649265590-jkkith85kqmv7g002qv14g0rnha772hp.apps.googleusercontent.com">
     <script src="https://apis.google.com/js/platform.js" async defer></script>
-    <div class="g-signin2" data-onsuccess="onSignIn"></div>
 </head>
 <body>
+    <div class="g-signin2" data-onsuccess="onSignIn"></div>
     <h1> Please Log in to continue to our website!</h1>
     <p>if you dont have a google account you can make one!</p>
     <a href="#" onclick="signOut();">Sign out</a>
@@ -23,5 +23,18 @@
     });
   }
 </script>
+    function renderButton() {
+      gapi.signin2.render('my-signin2', {
+        'scope': 'profile email',
+        'width': 240,
+        'height': 50,
+        'longtitle': true,
+        'theme': 'dark',
+        'ux_mode': 'redirect',
+        'redirect_uri': 'https://cjrpfivem.github.io/home',
+        'onsuccess': onSuccess,
+        'onfailure': onFailure
+      });
+    }
 </body>
 </html>
