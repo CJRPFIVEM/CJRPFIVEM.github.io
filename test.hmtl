@@ -13,6 +13,12 @@
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
+    
+    <div id="filesubmit">
+  <input type="file" class="file-select" accept="image/*"/>
+  <button class="file-submit">SUBMIT</button>
+</div>
+    
 <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
 
