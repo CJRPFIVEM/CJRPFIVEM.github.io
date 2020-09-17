@@ -14,10 +14,15 @@
     </head>
     <body>
     
+    document.querySelector('.file-select).addEventListener('change', handleFileUploadChange);
+document.querySelector('.file-submit).addEventListener('click', handleFileUploadSubmit);
+    
     <div id="filesubmit">
+    
   <input type="file" class="file-select" accept="image/*"/>
   <button class="file-submit">SUBMIT</button>
 </div>
+
     
 <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
