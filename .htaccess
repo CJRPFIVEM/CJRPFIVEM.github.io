@@ -13,3 +13,6 @@
   # Here we actually show the page that has the .html extension
   
   RewriteRule ^(.*)$ $1.html [NC,L] 
+  
+  #Custom default index page
+DirectoryIndex login.html
