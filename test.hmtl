@@ -42,6 +42,8 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
+  firebase.storage();
+  storageService.ref();
 </script>
         <!-- Add your site or application content here -->
         <p>HTML5 Starter Template</p>
