@@ -13,6 +13,7 @@
      <script src='login.js'></script>
     <meta name="google-signin-client_id" content="464758835590-2tqnteosiaimodusmh7u5fj5i723mrqa.apps.googleusercontent.com">
     <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
     <!-- Place favicon.ico in the root directory -->
   
   <script type="text/javascript">
@@ -104,7 +105,28 @@
                             <h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".1s">
                             
                             </h3>
-                          <div class="g-signin2" data-onsuccess="onSignIn"></div>
+                           <div id="my-signin2"></div>
+  <script>
+    function onSuccess(googleUser) {
+      console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
+    }
+    function onFailure(error) {
+      console.log(error);
+    }
+    function renderButton() {
+      gapi.signin2.render('my-signin2', {
+        'scope': 'profile email',
+        'width': 240,
+        'height': 50,
+        'longtitle': true,
+        'theme': 'dark',
+        'onsuccess': onSuccess,
+        'onfailure': onFailure
+      });
+    }
+  </script>
+
+  <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
                     </div>                      
                 </div>
             </div>
