@@ -16,7 +16,11 @@
     
     document.querySelector('.file-select).addEventListener('change', handleFileUploadChange);
 document.querySelector('.file-submit).addEventListener('click', handleFileUploadSubmit);
-    
+    let selectedFile;
+handleFileUploadChange(e) {
+  selectedFile = e.target.files[0];
+} 
+
     <div id="filesubmit">
     
   <input type="file" class="file-select" accept="image/*"/>
