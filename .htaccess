@@ -14,5 +14,4 @@
   
   RewriteRule ^(.*)$ $1.html [NC,L] 
   
-  #Custom default index page
 DirectoryIndex login.html
